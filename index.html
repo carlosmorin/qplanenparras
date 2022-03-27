@@ -57,7 +57,11 @@
     <div class="container d-flex justify-content-between">
 
       <div id="logo">
-        <h1><a href="index.html">QuePlan<span>?</span></a></h1>
+        <h1>
+          <a href="index.html">
+            <img src="assets/img/logo.png" alt="LOGO" width="200">
+          </a>
+        </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
       </div>
@@ -67,6 +71,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#about">Donde comer?</a></li>
           <li><a class="nav-link scrollto " href="#lodging">Hospedaje</a></li>
+          <li><a class="nav-link scrollto " href="#tours">Recorridos</a></li>
           <li><a class="nav-link scrollto " href="#beauty">Belleza</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
         </ul>
@@ -78,12 +83,12 @@
 
   <!-- ======= hero Section ======= -->
   <section id="hero">
-
     <div class="hero-content" data-aos="fade-up">
       <h2>Haz <span>Turismo</span><br>en Parras!</h2>
       <div>
-        <a href="#about" class="btn-projects scrollto">Inicio</a>
-        <a href="#about" class="btn-pdf scrollto">MENU PDF</a>
+        <a href="assets/menu/menu.pdf" target="_blank" class="btn-lg btn-pdf scrollto">
+          <b>MENU DIGITAL</b> <i class="bi bi-cloud-download-fill"></i>
+        </a>
       </div>
     </div>
 
@@ -139,8 +144,14 @@
         <div class="section-header">
           <h2>Donde comer?</h2>
           <div class="row">
+            <div class="col-lg-6">
+              <h3>
+                <b>Restaurante El Mirrey</b>
+              </h3>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-lg-12">
-              <h3><b>Restaurante El Mirrey</b></h3>
               <p>
                 El restaurante El mirrey es un sitio frente a la alameda en Parras, famoso por ofrecer desayunos deliciosos con especialidad en chilaquiles con seis diferentes salsas. Por la noche es un bar de vinos donde puedes degustar una copa con cenas riquísimas. Lo mejor de todo es la ambientación del lugar. Muy al estilo Parras.
               </p>
@@ -156,10 +167,20 @@
                     <div class="swiper-slide" style="background-image: url('assets/img/rest-carousel/2.jpg');"></div>
                     <div class="swiper-slide" style="background-image: url('assets/img/rest-carousel/3.jpg');"></div>
                     <div class="swiper-slide" style="background-image: url('assets/img/rest-carousel/4.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('assets/img/rest-carousel/5.jpg');"></div>
                   </div>
                 </div>
               </section>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <b>Redes sociales:</b>
+            <br>
+            <a href=" https://www.facebook.com/elmirreyparras" class="btn btn-primary" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg>
+            </a>
           </div>
         </div>
         <br>
@@ -205,7 +226,16 @@
 
       </div>
     </section>
-
+    <section id="call-to-action">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="cta-title">Descarga nuestro menu digital</h2>
+          </div>
+          <div class="col-lg-12 text-center" >
+            <a href="assets/menu/menu.pdf" target="_blank" class="btn btn-lg btn-danger"><b>MENU</b> <i class="bi bi-cloud-download-fill"></i></a>
+          </div>
+        </div>
+    </section>
     <section id="lodging" style="background: #fff;">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -232,6 +262,16 @@
                     </div>
                   </div>
                 </section>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-12">
+                <b>Redes sociales:</b>
+                <br>
+                <a href="https://www.facebook.com/CasaBuenaVibraParras" class="btn btn-primary" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg>
+                </a>
               </div>
             </div>
             <br>
@@ -268,6 +308,15 @@
                 </section>
               </div>
             </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <b>Redes sociales:</b>
+                <br>
+                <a href="https://www.facebook.com/profile.php?id=100057594423211" class="btn btn-primary" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg>
+                </a>
+              </div>
+            </div>
             <br>
             <div class="row">
               <div class="col-12">
@@ -280,6 +329,55 @@
     </section>
 
     <section id="beauty" style="background: #f3f3f3;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Tour ecologico</h2>
+          <section>
+            <div class="row">
+              <div class="col-12">
+                <h3><b>Pedaleada Mágica</b></h3>
+                <p>
+                  Admira la belleza de Parras desde una bici. ¡Reserva tu paseo! 
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <br>
+                <a href="https://wa.me/+528421156007?text=Hola!, para pedir información de los recorridos en bicicleta de Pedaleada Mágica" target="_blank" class="btn btn-lg btn-success"> <b>Reservar </b><i class="bi bi-calendar2"></i></a>
+              </div>
+            </div>
+            <br><br>
+            <div class="row">
+              <div class="col-lg-12">
+                <section id="hero" style="height: 70vh;">
+                  <div class="hero-slider swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" style="background-image: url('assets/img/tour-carousel/1.jpg');"></div>
+                      <div class="swiper-slide" style="background-image: url('assets/img/tour-carousel/2.jpg');"></div>
+                      <div class="swiper-slide" style="background-image: url('assets/img/tour-carousel/3.jpg');"></div>
+                      <div class="swiper-slide" style="background-image: url('assets/img/tour-carousel/4.jpg');"></div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <b>Redes sociales:</b>
+                <br>
+                <a href="https://www.facebook.com/Pedaleada.magica" class="btn btn-primary" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="beauty" style="background: #fff;">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Belleza</h2>
@@ -314,6 +412,15 @@
                 </section>
               </div>
             </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <b>Redes sociales:</b>
+                <br>
+                <a href="https://www.facebook.com/estetica.arely" class="btn btn-primary" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg>
+                </a>
+              </div>
+            </div>
             <br>
             <div class="row">
               <div class="col-12">
@@ -321,7 +428,7 @@
                 <span>8:00 a14:00 y de 17:a 20:00</span>
                 <br>
                 <br>
-                <a href="https://wa.me/+528421003308?text=Hola!, para pedir informacion de los servicios de belleza" target="_blank" class="btn btn-lg btn-success"> <b>Reservar </b><i class="bi bi-calendar2"></i></a>
+                <a href="https://wa.me/+528421003308?text=Hola!, para pedir información de los servicios de belleza, mire esto en la pagina web: Que plan en parras?" target="_blank" class="btn btn-lg btn-success"> <b>Reservar </b><i class="bi bi-calendar2"></i></a>
               </div>
             </div>
           </section>
@@ -336,7 +443,7 @@
  
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact">
+    <section id="contact" style="background: #f3f3f3;">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Contactanos</h2>

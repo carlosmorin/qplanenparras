@@ -322,7 +322,7 @@
     sendBtn.addEventListener("click", () => {
       let msg = document.getElementById('whats-in').value;
       let relmsg = msg.replace(/ /g,"%20");
-      window.open('https://wa.me/+528421156007?text='+relmsg, '_blank');
+      window.open('https://wa.me/+528421156007?text='+relmsg+', mire esto en la pagina web: Que plan en parras?', '_blank');
     });
 
     setTimeout(() => {
